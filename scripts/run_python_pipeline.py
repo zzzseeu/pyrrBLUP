@@ -21,7 +21,7 @@ def main() -> int:
     out_dir = (
         Path(sys.argv[2])
         if len(sys.argv) > 2
-        else ROOT / "baselines" / "python_loc_BeiJ"
+        else ROOT / "runs" / "manual" / location_col / "python"
     )
     out_dir.mkdir(parents=True, exist_ok=True)
 

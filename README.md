@@ -1,6 +1,6 @@
 # pyrrBLUP
 
-Python implementation of core `rrBLUP` workflows with numeric checks against the R package.
+Python implementation of core `rrBLUP` workflows.
 
 ## Installation
 
@@ -118,3 +118,7 @@ Run the test suite with:
 ```bash
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python -m pytest -v
 ```
+
+## License
+
+`pyrrBLUP` is distributed under the `BSD-3-Clause` license. See `LICENSE`.
