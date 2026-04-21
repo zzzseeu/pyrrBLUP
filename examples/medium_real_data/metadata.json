@@ -1,0 +1,9 @@
+{
+  "source_genotype": "/share/org/YZWL/yzbsl_zhangchao/project/genomic_selection_project/data/processed/model_dataset/agront_ds_202603/genotype_012.csv",
+  "source_phenotype": "/share/org/YZWL/yzbsl_zhangchao/project/genomic_selection_project/data/processed/phenotype/phenotype_ETN_processed_20260227.csv",
+  "location": "loc_BeiJ",
+  "sample_count": 256,
+  "marker_count": 512,
+  "sample_selection": "samples filtered by location, intersected with genotype, sorted by sample, first N kept",
+  "marker_selection": "original genotype marker column order after rrBLUP-style filtering on the selected samples, first M kept"
+}
